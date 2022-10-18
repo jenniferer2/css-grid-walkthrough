@@ -11,13 +11,6 @@ html {
     font-family: sans-serif;
 }
 
-#grid {
-    display: grid; 
-    grid-template-columns: 1Fr 2Fr 3fr;
-    grid-template-rows:repeat(6,200px);
-    
-}
-
 /* Color each language element */
 #ruby {background-color: #DF4638;}
 #python {background-color: #8DAD53;}
@@ -44,5 +37,7 @@ html {
 
 /* Style your grid here */
 #grid {
-    
+    display: grid; 
+    grid-template-columns: 1Fr 2Fr 3fr;
+    grid-template-rows:repeat(6,200px);
 }
