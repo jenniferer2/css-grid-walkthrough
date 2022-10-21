@@ -1,3 +1,19 @@
-div {
-    border: solid black 2px;
+.container {
+    display: grid; 
+    grid-template-columns: 1Fr 2Fr 3fr;
+    grid-template-rows:repeat(6,200px);
+}
+
+
+#titlebar {
+    text-align: center;
+}
+
+#sidebar {
+    text-align: left; 
+}
+
+#main {
+    padding:20px;
+    text-align: center; 
 }
